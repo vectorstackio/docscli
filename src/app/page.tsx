@@ -6,8 +6,9 @@ import { useState, useEffect, useRef } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { User, Bot } from 'lucide-react'
+//import config from '@/lib/common/config'
 
-import { askQuestion, getConversationHistory, isGibberish } from '@/lib/query'
+import { askQuestion, getConversationHistory/*, isGibberish */ } from '@/lib/query'
 import { ValidationError } from '@/lib/common/error'
 
 interface ConversationPiece {
