@@ -145,7 +145,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white shadow-lg rounded-2xl p-8 w-1/2 mx-auto">
+      <div className="bg-white shadow-lg rounded-2xl p-4 sm:p-8 w-full md:w-1/2 mx-auto">
         {conversationPieces.length === 0 && <h1 className="text-2xl font-bold text-gray-800 mb-6">
           Ask a Question
         </h1>}
